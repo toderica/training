@@ -1,1 +1,1 @@
-# Training IT 4.11.2018
+**Training HTML & CSS** - 4.11.2018

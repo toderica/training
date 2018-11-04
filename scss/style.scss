@@ -1,26 +1,52 @@
-@import "variables";
-
-.card {
-	width: 500px;
-
+body {
+	background: #f0f3f7;
+}
+.container {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.card {
+	width: 650px;
 	flex-direction: row;
-
-	&_image {
-		max-width: 25%;
-		height: 100%;
-		img {
-			height: 100%;
-			background-size: cover;
+	border-radius: 0;
+	border: 0;
+	box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+	&-img {
+		width: 25%;
+		background-size: cover !important;
+		border-radius: 0;
+	}
+	&-info {
+		flex-direction: column;
+	}
+	&-header {
+		background: white;
+		border: 0;
+	}
+	&-body {
+		background: #f9f9f9;
+	}
+	.price {
+		font-size: 1.5rem;
+	}
+	.rating {
+		font-size: .9rem;
+		&-stars {
+			color: #199583;
+			font-size: 1.25rem;
 		}
 	}
-
-	&_info {
-		display: flex;
-		flex-direction: column;
-
-		&_btn {
-			order: 1;
-		}
+	.btn {
+		padding: 0.575rem 2.75rem;
+		background: #5f65b0;
+		color: white;
+		font-weight: 700;
+		float: right;
+	}
+	.btn:focus {
+		outline:none;
+		box-shadow: none;
 	}
 }
