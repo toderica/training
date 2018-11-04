@@ -1,0 +1,22 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toderica/training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toderica/training/issues"
+  },
+  "homepage": "https://github.com/toderica/training#readme",
+  "devDependencies": {
+    "sass": "^1.14.3"
+  }
+}
